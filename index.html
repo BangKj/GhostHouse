@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>귀신의 집 예약</title>
+    <style>
+    @font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+        p{
+            margin-left: 60px;
+        }
+        button{
+            margin-top: 40px;
+            margin-left: 100px;
+            font-size: 50px;
+        }
+        body {
+            background-image: url("https://github.com/kehibn/GhostHouse/blob/main/HorroMain.png?raw=true");
+            background-repeat: no-repeat;
+            background-color: black;
+            font-family: "InkLipquid";
+        }
+        
+    </style>
+    
+    <script src="a.js"></script>
+</head>
+<body>
+
+    
+    <form action="http://34.64.103.73:8686/">
+        <p style="font-size: 3em; width: 400px; color: ghostwhite;"> 귀신의 집 예약 </p>
+        <div>
+            
+            <label style="font-size: 1.5em; color:darkred" for="name">이름 :</label>
+            <input style="font-family: InkLipquid; font-size: 1.5em; width: 220px; color:red;" type="text" id="name" name="title" placeholder="이름을 입력하세요."/>
+            
+        </div>
+        <p></p>
+        <div>
+            <label style="font-size: 1.5em; color: darkred;" for="phonenumber "> 전화번호 :</label>
+            <input style="font-family: InkLipquid; font-size: 1.5em;  width: 260px; color:red;"  type="text" id="phonenumber" name="second" placeholder="전화번호를 입력하세요."/>
+        </div>
+        <div class="button">
+            <button  style="font-family: InkLipquid; font-size: xx-large; color: firebrick;" type="submit">예약하기</button>
+        </div>
+    </form>
+    
+</body>
+</html>
